@@ -92,10 +92,16 @@
     .channelIcon
     {
         border-radius: 50%;
-        margin-top: 10px;
+        /*margin-top: 10px;*/
         height: 15%;
         width: 15%;
         display: inline-block;
+    }
+
+    .thumbnails
+    {
+        width: 104%;
+        height:74%;
     }
 
     .titleNStuff
@@ -138,7 +144,7 @@
     .channelIcon
     {
         border-radius: 50%;
-        margin-top: 10px;
+        /*margin-top: 10px;*/
         height: 15%;
         width: 15%;
         display: inline-block;
@@ -191,7 +197,7 @@
     .channelIcon
     {
         border-radius: 50%;
-        margin-top: 10px;
+        /*margin-top: 10px;*/
         height: 15%;
         width: 15%;
     }
@@ -237,7 +243,7 @@
     .channelIcon
     {
         border-radius: 50%;
-        margin-top: 10px;
+        /*margin-top: 10px;*/
         height: 15%;
         width: 15%;
     }
@@ -283,7 +289,7 @@
     .channelIcon
     {
         border-radius: 50%;
-        margin-top: 10px;
+        /*margin-top: 10px;*/
         height: 15%;
         width: 15%;
     }
@@ -304,4 +310,21 @@
         color: rgb(109, 109, 109);
         font-size: 70%;
     }
+}
+
+.Header
+{
+    margin-top: 1rem;
+}
+
+.title
+{
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
+}
+
+.channelNData
+{
+    margin-left: 1rem;
 }
