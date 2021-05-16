@@ -1,0 +1,307 @@
+
+
+.row
+{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.col-1
+{
+    width: 8.33%;
+    display: inline-block;
+}
+.col-2
+{
+    width: 16.66%;  
+    display: inline-block;  
+}
+.col-3
+{
+    width: 25%;    
+    display: inline-block;
+}
+.col-4
+{
+    width: 33.33%;
+    display: inline-block;
+}
+
+.col-5
+{
+    width: 41.66%;   
+    display: inline-block; 
+}
+.col-6
+{
+    width: 50%;
+    display: inline-block;
+}
+.col-7
+{
+    width: 58.33%;
+    display: inline-block;
+}
+.col-8
+{
+    width: 66.66%;
+    display: inline-block;
+}
+.col-9
+{
+    width: 75%;
+    display: inline-block;
+}
+.col-10
+{
+    width: 83.33%;
+    display: inline-block;
+}
+.col-11
+{
+    width: 91.66%;
+    display: inline-block;
+}
+.col-12
+{
+    width: 100%;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+    width: 100%;
+}
+
+/* For XL Screens */
+@media only screen and (min-width: 1675px) 
+{
+    .col-video-xl
+    {
+        width: 19%;
+        margin-right: 1px;
+        margin-top: 1px;
+        height: 100px;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .channelIcon
+    {
+        border-radius: 50%;
+        margin-top: 10px;
+        height: 15%;
+        width: 15%;
+        display: inline-block;
+    }
+
+    .titleNStuff
+    {
+        display: inline-block;
+    }
+
+    .channelName
+    {
+        color: rgb(109, 109, 109);
+        font-size: 70%;
+    }
+
+    .viewsNTime
+    {
+        color: rgb(109, 109, 109);
+        font-size: 70%;
+    }
+}
+
+/* For L Screens */
+@media only screen and (max-width: 1674px)
+{
+    .col-video-l
+    {
+        width: 24%;
+        margin-right: 1px;
+        margin-top: 1px;
+        height: 30%;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .thumbnails
+    {
+        width: 104%;
+        height:74%;
+    }
+
+    .channelIcon
+    {
+        border-radius: 50%;
+        margin-top: 10px;
+        height: 15%;
+        width: 15%;
+        display: inline-block;
+    }
+
+    .titleNStuff
+    {
+        display:inline-block;
+    }
+
+    .channelName
+    {
+        color: rgb(109, 109, 109);
+        font-size: 70%;
+    }
+
+    .viewsNTime
+    {
+        color: rgb(109, 109, 109);
+        font-size: 70%;
+    }
+
+
+
+   
+
+ 
+}
+
+/* For M Screens */
+@media only screen and (max-width: 1145px)
+{
+    .col-video-m
+    {
+        width: 33%;
+        margin-right: 1px;
+        margin-top: 1px;
+        height: 30%;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .thumbnails
+    {
+
+        width: 104%;
+        height: 74%;
+    }
+
+    .channelIcon
+    {
+        border-radius: 50%;
+        margin-top: 10px;
+        height: 15%;
+        width: 15%;
+    }
+
+    .titleNStuff
+    {
+        display: inline-block;
+    }
+
+    .channelName
+    {
+        color: rgb(109, 109, 109);
+        font-size: 70%;
+    }
+
+    .viewsNTime
+    {
+        color: rgb(109, 109, 109);
+        font-size: 70%;
+    }
+}
+
+/* For S Screens */
+@media only screen and (max-width: 890px)
+{
+    .col-video-s
+    {
+        width: 49%;
+        margin-right: 1px;
+        margin-top: 1px;
+        height: 30%;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .thumbnails
+    {
+
+        width: 104%;
+        height: 74%;
+    }
+
+    .channelIcon
+    {
+        border-radius: 50%;
+        margin-top: 10px;
+        height: 15%;
+        width: 15%;
+    }
+
+    .titleNStuff
+    {
+        display: inline-block;
+    }
+
+    .channelName
+    {
+        color: rgb(109, 109, 109);
+        font-size: 70%;
+    }
+
+    .viewsNTime
+    {
+        color: rgb(109, 109, 109);
+        font-size: 70%;
+    }
+}
+
+/* For XS Screens */
+@media only screen and (max-width: 510px)
+{
+    .col-video-xs
+    {
+        width: 99%;
+        margin-right: 1px;
+        margin-top: 1px;
+        height: 30%;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .thumbnails
+    {
+
+        width: 104%;
+        height: 74%;
+    }
+
+    .channelIcon
+    {
+        border-radius: 50%;
+        margin-top: 10px;
+        height: 15%;
+        width: 15%;
+    }
+
+    .titleNStuff
+    {
+        display: inline-block;
+    }
+
+    .channelName
+    {
+        color: rgb(109, 109, 109);
+        font-size: 70%;
+    }
+
+    .viewsNTime
+    {
+        color: rgb(109, 109, 109);
+        font-size: 70%;
+    }
+}
